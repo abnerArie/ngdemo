@@ -16,8 +16,17 @@
     ],
     "lib": [
       "es2018",
-      "dom"
-    ]
+      "dom",
+      "esnext.asynciterable"
+    ],
+    "paths": {
+      "tst-lib": [
+        "dist/tst-lib"
+      ],
+      "tst-lib/*": [
+        "dist/tst-lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
